@@ -1,0 +1,16 @@
+.buttons {
+  height: 2rem;
+  width: 8rem;
+  padding: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
