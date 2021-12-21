@@ -25,10 +25,11 @@ export default function DisplayCounter() {
         </p>
         <h3>The Complex Counter</h3>
         <p>
-          The next part of the application consists a more complex counter where
-          the user can either multiply or divide the counted number with any
-          chosen value. This chosen value has to be typed into the displayed
-          input field.
+          The next part of the application consists of a more complex counter
+          where the user can either multiply or divide the counted to number
+          with any chosen value. This chosen value has to be typed into the
+          displayed input field. Once the multiplication or division is done,
+          the value of counter should get updated.
         </p>
       </div>
       <SimpleCounter count={count} setCount={setCount} />
