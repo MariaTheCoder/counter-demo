@@ -1,10 +1,9 @@
 import React from "react";
-import './Input.css'
+import "./Input.css";
 
 export default function Input({ value, setValue }) {
-
   function getInput(val) {
-    setValue(val.target.value);
+    setValue(Number(val.target.value));
   }
 
   return (
