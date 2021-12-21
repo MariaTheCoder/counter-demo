@@ -8,7 +8,12 @@ export default function Input({ value, setValue }) {
 
   return (
     <>
-      <input className="input" type="number" onChange={getInput} />
+      <input
+        className="input"
+        type="number"
+        placeholder="Default value: 0"
+        onChange={getInput}
+      />
       <p>Current value is: {value} </p>
     </>
   );
