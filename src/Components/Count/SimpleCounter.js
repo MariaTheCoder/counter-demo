@@ -15,7 +15,9 @@ export default function SimpleCounter({ count, setCount }) {
     <>
       <div className="simpleCounter">
         <h3>The Simple Counter</h3>
-        <div className="DisplayCurrentCount">{count}</div>
+        <div className="displayCurrentCount">
+          {count > 999999 ? count.toExponential(4) : count.toLocaleString()}
+        </div>
         <Button onClick={incrementCount} buttonText="Increment" />
         <Button onClick={decrementCount} buttonText="Decrement" />
       </div>
