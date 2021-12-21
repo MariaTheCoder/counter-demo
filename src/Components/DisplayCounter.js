@@ -9,7 +9,7 @@ export default function DisplayCounter() {
 
   return (
     <div className="DisplayCounter">
-      <h2>This is my counter</h2>
+      <h1>This is my counter</h1>
       <div className="intro-text">
         <p>
           This counter app is created with the goal to create a simple yet
