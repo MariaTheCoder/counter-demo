@@ -1,0 +1,10 @@
+.simpleCounter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 10px 50px 10px;
+  /* border-color: darkgrey;
+  border-style: dashed; */
+  /* margin-bottom: 10px; */
+}
