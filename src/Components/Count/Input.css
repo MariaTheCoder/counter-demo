@@ -5,3 +5,10 @@
   margin-right: auto;
   margin-top: 5px;
 }
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
